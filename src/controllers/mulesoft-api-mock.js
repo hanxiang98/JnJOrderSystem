@@ -10,7 +10,8 @@ mock.onGet("/getOrders/").reply(200, {
         { orderId: 2, productName: "cold medicine", quantity: 10 },
         { orderId: 5, productName: "heart attack medicine", quantity: 23 },
         { orderId: 4, productName: "sore throat medicine", quantity: 11 },
-        { orderId: 3, productName: "unfair medicine", quantity: 22 }
+        { orderId: 3, productName: "unfair medicine", quantity: 22 },
+        { orderId: 3, productName: "headache medicine", quantity: 77 }
     ],
 });
 
